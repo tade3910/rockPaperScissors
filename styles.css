@@ -1,0 +1,44 @@
+#game-wrapper{
+
+    justify-content: space-around;
+    
+    
+}
+p{
+    align-self: center;
+}
+.rock::after{
+    content: '\270A';
+}
+.scissors::after{
+    content: '\270C';
+}
+.paper::after{
+    content: '\270B';
+}
+
+div{
+    width: 50%;
+    margin: auto;
+    display: flex;  
+    justify-content: center;
+}
+main{
+    background-color: rgba(255, 255, 0, 0.527);
+    position: relative;
+    top: 20vw;
+}
+button{
+    min-height: 50px;
+    min-width: 50px;
+    background-color: rgba(194, 194, 0, 0.484);
+    border: solid .5px lightgray;
+}
+button:hover{
+    border:solid .5px blue;
+    min-width: 55px;
+    min-height: 55px;
+}
+#reset{
+    flex-direction: column;
+}
